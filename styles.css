@@ -1,0 +1,57 @@
+body, html {
+    margin: 0;
+}
+footer {
+    height: 5%;
+    text-align: center;
+    background-color: darkblue;
+}
+
+.body-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-section {
+    flex: 1 1 100px; 
+    background-color: darkblue;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-section div {
+    border: 5px solid black;
+    width: 300px;
+    padding: 5px;
+}
+
+.navbar {
+    display: flex;
+    flex: 1 0 50px;
+    justify-content: flex-end;
+}
+
+.navbar div {
+    border: 1px solid white;
+    width: 10px;
+}
+
+.logo {
+    justify-self: start;
+}
+
+.second-section {
+    flex: 1 0 30px;
+    background-color: whitesmoke;
+}
+
+.third-section {
+    flex: 1 1 50px;
+    background-color: gainsboro;
+}
+
+.fourth-section {
+    flex: 1 1 50px;
+    background-color: whitesmoke;
+}
